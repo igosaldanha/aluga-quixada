@@ -99,3 +99,47 @@ nav {
         display: flex;
     }
 }
+
+.properties-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.properties-list {
+    padding-left: 20px;
+}
+
+.property-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.property-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-image {
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+}
+
+.property-info {
+    padding: 20px;
+    width: 60%;
+}
+
+.property-info h3 {
+    margin: 0 0 10px;
+    color: #ff6600;
+}
+
+.property-info p {
+    margin: 5px 0;
+}
