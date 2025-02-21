@@ -31,7 +31,48 @@
             <div class="filters" style="width: 35%;">
                 <!-- Opções de filtro -->
                 <h2>Filtros</h2>
-                <!-- Adicione os filtros aqui -->
+                <input type="text" id="search-bar" placeholder="Pesquisar por endereço">
+                <h3>Quartos</h3>
+                <div class="filter-options" id="filter-quartos">
+                    <button data-quartos="1">1</button>
+                    <button data-quartos="2">2</button>
+                    <button data-quartos="3">3</button>
+                    <button data-quartos="4+">4+</button>
+                </div>
+                <h3>Banheiros</h3>
+                <div class="filter-options" id="filter-banheiros">
+                    <button data-banheiros="1">1</button>
+                    <button data-banheiros="2">2</button>
+                    <button data-banheiros="3">3</button>
+                    <button data-banheiros="4+">4+</button>
+                </div>
+                <h3>Garagem</h3>
+                <div class="filter-options" id="filter-garagem">
+                    <button data-garagem="1">1</button>
+                    <button data-garagem="2">2</button>
+                    <button data-garagem="3">3</button>
+                    <button data-garagem="4+">4+</button>
+                </div>
+                <h3>Varanda</h3>
+                <div class="filter-options" id="filter-varanda">
+                    <button data-varanda="1">Com Varanda</button>
+                    <button data-varanda="0">Sem Varanda</button>
+                </div>
+                <h3>Preço</h3>
+                <div class="filter-options">
+                    <input type="number" id="min-price" placeholder="Mínimo">
+                    <input type="number" id="max-price" placeholder="Máximo">
+                </div>
+                <h3>Tamanho (m²)</h3>
+                <div class="filter-options">
+                    <input type="number" id="min-size" placeholder="Mínimo">
+                    <input type="number" id="max-size" placeholder="Máximo">
+                </div>
+                <h3>Bairro</h3>
+                <select id="filter-bairro">
+                    <option value="">Todos</option>
+                    <!-- Bairros serão carregados dinamicamente -->
+                </select>
             </div>
             <div class="properties-list" style="width: 65%;">
                 <!-- Lista de imóveis -->

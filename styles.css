@@ -107,6 +107,52 @@ nav {
     padding: 0 20px;
 }
 
+.filters {
+    padding-right: 20px;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-options button,
+.filter-options input,
+.filter-options select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.filter-options button:hover,
+.filter-options input:hover,
+.filter-options select:hover {
+    background-color: #f0f0f0;
+}
+
+.filter-options button.active {
+    background-color: #ff6600;
+    color: #fff;
+    border-color: #ff6600;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+#search-bar:focus {
+    border-color: #ff6600;
+}
+
 .properties-list {
     padding-left: 20px;
 }
