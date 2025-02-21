@@ -19,7 +19,7 @@
         },
         "whatsapp": "(85) 9 1234-5678",
         "rent_value": "R$ 1.200,00",
-        "image": "src/assets/images/casa-centro.jpg"
+        "image": "src/assets/images/img-id-01.jpg"
     },
     {
         "id": 2,
@@ -41,7 +41,7 @@
         },
         "whatsapp": "(85) 9 2345-6789",
         "rent_value": "R$ 1.500,00",
-        "image": "src/assets/images/apartamento-moderno.jpg"
+        "image": "src/assets/images/img-id-02.jpg"
     },
     {
         "id": 3,
@@ -63,7 +63,7 @@
         },
         "whatsapp": "(85) 9 3456-7890",
         "rent_value": "R$ 2.500,00",
-        "image": "src/assets/images/chacara-espacosa.jpg"
+        "image": "src/assets/images/img-id-03.jpg"
     },
     {
         "id": 4,
@@ -85,7 +85,7 @@
         },
         "whatsapp": "(85) 9 4567-8901",
         "rent_value": "R$ 2.800,00",
-        "image": "src/assets/images/casa-praia.jpg"
+        "image": "src/assets/images/img-id-04.jpg"
     },
     {
         "id": 5,
@@ -107,7 +107,7 @@
         },
         "whatsapp": "(85) 9 5678-9012",
         "rent_value": "R$ 4.000,00",
-        "image": "src/assets/images/apartamento-luxuoso.jpg"
+        "image": "src/assets/images/img-id-05.jpg"
     },
     {
         "id": 6,
@@ -129,7 +129,7 @@
         },
         "whatsapp": "(85) 9 6789-0123",
         "rent_value": "R$ 6.500,00",
-        "image": "src/assets/images/cobertura-alto-padrao.jpg"
+        "image": "src/assets/images/img-id-06.jpg"
     },
     {
         "id": 7,
@@ -151,7 +151,7 @@
         },
         "whatsapp": "(85) 9 7890-1234",
         "rent_value": "R$ 1.100,00",
-        "image": "src/assets/images/flat-elegante.jpg"
+        "image": "src/assets/images/img-id-07.jpg"
     },
     {
         "id": 8,
@@ -173,7 +173,7 @@
         },
         "whatsapp": "(85) 9 8901-2345",
         "rent_value": "R$ 3.500,00",
-        "image": "src/assets/images/chacara-lagoa.jpg"
+        "image": "src/assets/images/img-id-08.jpg"
     },
     {
         "id": 9,
@@ -195,7 +195,7 @@
         },
         "whatsapp": "(85) 9 9012-3456",
         "rent_value": "R$ 1.800,00",
-        "image": "src/assets/images/casa-campo.jpg"
+        "image": "src/assets/images/img-id-09.jpg"
     },
     {
         "id": 10,
@@ -217,7 +217,7 @@
         },
         "whatsapp": "(85) 9 0123-4567",
         "rent_value": "R$ 950,00",
-        "image": "src/assets/images/studio-compacto.jpg"
+        "image": "src/assets/images/img-id-10.jpg"
     },
     {
         "id": 11,
@@ -239,7 +239,7 @@
         },
         "whatsapp": "(85) 9 1234-5678",
         "rent_value": "R$ 2.200,00",
-        "image": "src/assets/images/loja-comercial.jpg"
+        "image": "src/assets/images/img-id-11.jpg"
     },
     {
         "id": 12,
@@ -261,6 +261,182 @@
         },
         "whatsapp": "(85) 9 2345-6789",
         "rent_value": "R$ 2.000,00",
-        "image": "src/assets/images/sitio-tranquilo.jpg"
+        "image": "src/assets/images/img-id-12.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Casa Moderna com Piscina",
+        "description": {
+            "quartos": 4,
+            "banheiros": 3,
+            "garagem": 2,
+            "varanda": 1,
+            "tamanho_m2": 200
+        },
+        "address": {
+            "cep": "63900-012",
+            "street": "Rua das Flores",
+            "number": 456,
+            "neighborhood": "Jardim das Flores",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 3456-7890",
+        "rent_value": "R$ 3.000,00",
+        "image": "src/assets/images/img-id-13.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Apartamento Compacto e Funcional",
+        "description": {
+            "quartos": 2,
+            "banheiros": 1,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 60
+        },
+        "address": {
+            "cep": "63900-013",
+            "street": "Avenida Central",
+            "number": 789,
+            "neighborhood": "Centro",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 4567-8901",
+        "rent_value": "R$ 1.300,00",
+        "image": "src/assets/images/img-id-14.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Casa de Campo com Pomar",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 150
+        },
+        "address": {
+            "cep": "63900-014",
+            "street": "Estrada do Pomar",
+            "number": "S/N",
+            "neighborhood": "Pomar",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 5678-9012",
+        "rent_value": "R$ 2.200,00",
+        "image": "src/assets/images/img-id-15.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Cobertura com Jacuzzi",
+        "description": {
+            "quartos": 4,
+            "banheiros": 3,
+            "garagem": 2,
+            "varanda": 1,
+            "tamanho_m2": 300
+        },
+        "address": {
+            "cep": "63900-015",
+            "street": "Rua das Palmeiras",
+            "number": 123,
+            "neighborhood": "Palmeiras",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 6789-0123",
+        "rent_value": "R$ 7.000,00",
+        "image": "src/assets/images/img-id-16.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Flat Moderno e Aconchegante",
+        "description": {
+            "quartos": 1,
+            "banheiros": 1,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 50
+        },
+        "address": {
+            "cep": "63900-016",
+            "street": "Rua do Comércio",
+            "number": 456,
+            "neighborhood": "Comercial",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 7890-1234",
+        "rent_value": "R$ 1.200,00",
+        "image": "src/assets/images/img-id-17.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Chácara com Piscina e Campo de Futebol",
+        "description": {
+            "quartos": 5,
+            "banheiros": 3,
+            "garagem": 3,
+            "varanda": 1,
+            "tamanho_m2": 600
+        },
+        "address": {
+            "cep": "63900-017",
+            "street": "Estrada do Campo",
+            "number": "S/N",
+            "neighborhood": "Campo Alegre",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 8901-2345",
+        "rent_value": "R$ 4.000,00",
+        "image": "src/assets/images/img-id-18.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Casa Rústica e Charmosa",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 120
+        },
+        "address": {
+            "cep": "63900-018",
+            "street": "Rua do Sol",
+            "number": 789,
+            "neighborhood": "Sol Nascente",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 9012-3456",
+        "rent_value": "R$ 2.500,00",
+        "image": "src/assets/images/img-id-19.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Studio Moderno e Funcional",
+        "description": {
+            "quartos": 1,
+            "banheiros": 1,
+            "garagem": 0,
+            "varanda": 0,
+            "tamanho_m2": 40
+        },
+        "address": {
+            "cep": "63900-019",
+            "street": "Avenida Principal",
+            "number": 123,
+            "neighborhood": "Centro",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 0123-4567",
+        "rent_value": "R$ 1.000,00",
+        "image": "src/assets/images/img-id-20.jpg"
     }
 ]
