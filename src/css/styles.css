@@ -192,10 +192,11 @@ nav {
     margin-bottom: 30px;
     overflow: hidden;
     transition: box-shadow 0.3s;
+   
 }
 
 .property-card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 .property-image {
@@ -205,7 +206,7 @@ nav {
 }
 
 .property-info {
-    padding: 20px;
+    padding: 35px 20px;
     width: 65%;
 }
 
@@ -219,10 +220,37 @@ nav {
     font-size: 0.9rem;
 }
 
+.saiba-mais-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    width: 30%;
+    background-color: #072460;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.saiba-mais-btn:hover {
+    background-color: #051a45;
+}
+
+.saiba-mais-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
 .whatsapp-button {
     display: inline-flex;
     align-items: center;
     padding: 10px 15px;
+   
+    width: 30%;
     background-color: #25D366;
     color: #fff;
     border: none;
@@ -322,11 +350,6 @@ footer {
     text-decoration: none;
     font-size: 14px;
 }
-.footer-section .links ul li a {
-    color: #f0f0f0;
-    text-decoration: none;
-    font-size: 14px;
-}
 
 .footer-section .links ul li a:hover {
     color: #ff6600;
@@ -358,7 +381,7 @@ footer {
     border: 1px solid #ff6600;
 }
 
-.footer-section .contact-form .btn .btn-big .contact-btn {
+.footer-section .contact-form .btn {
     background: #ff6600;
     color: #fff;
     border: none;
@@ -373,12 +396,9 @@ footer {
 }
 
 .footer-bottom {
-    
-    align-items: center;
-    text-align: center;
+    border-top: 1px solid #bbb;
     color: #bbb;
-    border-top: 1px solid #ddd;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 16px 20px;
     font-size: 14px;
+    text-align: center;
 }
