@@ -43,8 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const propertyPrice = document.createElement('p');
             propertyPrice.textContent = `Preço: ${imovel.rent_value}`;
 
-            const propertyContact = document.createElement('p');
-            propertyContact.textContent = `WhatsApp: ${imovel.whatsapp}`;
+            const propertyContact = document.createElement('a');
+            propertyContact.href = `https://wa.me/${imovel.whatsapp.replace(/\D/g, '')}`;
+            propertyContact.target = "_blank";
+            propertyContact.classList.add('whatsapp-button');
+            propertyContact.innerHTML = `<img src="whatsapp-icon.png" alt="WhatsApp"> Conversar no WhatsApp`;
 
             propertyInfo.appendChild(propertyTitle);
             propertyInfo.appendChild(propertyDescription);

@@ -153,6 +153,25 @@ nav {
     border-color: #ff6600;
 }
 
+#filter-bairro {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+#filter-bairro:focus {
+    border-color: #ff6600;
+}
+
 .properties-list {
     padding-left: 20px;
 }
@@ -188,4 +207,27 @@ nav {
 
 .property-info p {
     margin: 5px 0;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DA851;
 }
