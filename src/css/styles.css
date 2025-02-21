@@ -18,11 +18,11 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
 }
 
 .nav-links {
@@ -36,6 +36,7 @@ nav {
     margin-left: 20px;
 }
 
+
 .nav-links a {
     color: #333;
     text-decoration: none;
@@ -47,18 +48,22 @@ nav {
     color: #ff6600;
 }
 
-.btn-anuncie {
+.btn-anuncie a {
+
     background-color: #ff6600;
-    color: #fff;
     border: none;
+    border-radius: 8px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: #f0f0f0;
+    
 }
 
-.btn-anuncie:hover {
-    background-color: #e65c00;
+.btn-anuncie a:hover {
+    background-color: #072460;
+    color: #fff;
 }
 
 .menu-toggle {
