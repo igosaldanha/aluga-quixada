@@ -36,7 +36,6 @@ nav {
     margin-left: 20px;
 }
 
-
 .nav-links a {
     color: #333;
     text-decoration: none;
@@ -49,7 +48,6 @@ nav {
 }
 
 .btn-anuncie a {
-
     background-color: #ff6600;
     border: none;
     border-radius: 8px;
@@ -58,7 +56,6 @@ nav {
     cursor: pointer;
     transition: background-color 0.3s;
     color: #f0f0f0;
-    
 }
 
 .btn-anuncie a:hover {
@@ -262,4 +259,126 @@ nav {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+/* Estilos para o footer */
+footer {
+    background: #072460;
+    color: #f0f0f0;
+    padding: 20px 0;
+    text-align: start;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 13px;
+    color: #ff6600;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section .contact span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-section .socials a {
+    margin-right: 10px;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-section .socials a:hover {
+    color: #ff6600;
+}
+
+.footer-section .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section .links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section .links ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-section .links ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section .links ul li a:hover {
+    color: #ff6600;
+}
+
+.footer-section .contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .contact-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #f0f0f0;
+}
+
+.footer-section .contact-form .text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.footer-section .contact-form .text-input:focus {
+    outline: none;
+    border: 1px solid #ff6600;
+}
+
+.footer-section .contact-form .btn .btn-big .contact-btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.footer-section .contact-form .btn:hover {
+    background: #e65c00;
+}
+
+.footer-bottom {
+    
+    align-items: center;
+    text-align: center;
+    color: #bbb;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 14px;
 }
