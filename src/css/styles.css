@@ -113,7 +113,7 @@ nav {
     height: 100vh; /* Altura total da viewport */
     overflow-y: auto;
     padding-right: 30px;
-    width: 30%; /* Ajuste a largura conforme necessário */
+    width: 40%; /* Ajuste a largura conforme necessário */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
@@ -147,7 +147,7 @@ nav {
 }
 
 #search-bar {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -186,8 +186,8 @@ nav {
 .property-card {
     display: flex;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
     overflow: hidden;
     transition: box-shadow 0.3s;
 }
@@ -204,16 +204,17 @@ nav {
 
 .property-info {
     padding: 20px;
-    width: 60%;
+    width: 65%;
 }
 
 .property-info h3 {
-    margin: 0 0 10px;
+    margin: 0 0 15px;
     color: #ff6600;
 }
 
 .property-info p {
-    margin: 5px 0;
+    margin: 10px 0;
+    font-size: 0.9rem;
 }
 
 .whatsapp-button {
