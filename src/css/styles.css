@@ -310,6 +310,7 @@ footer {
     padding: 10px;
 }
 
+
 .footer-section h2 {
     margin-bottom: 13px;
     color: #ff6600;
@@ -319,6 +320,12 @@ footer {
     font-size: 14px;
     line-height: 1.6;
 }
+
+.footer-section img {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
 
 .footer-section .contact span {
     display: block;
