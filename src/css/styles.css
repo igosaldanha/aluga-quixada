@@ -102,7 +102,6 @@ nav {
 
 .properties-section {
     display: flex;
-    height: calc(100vh - 60px); /* Ajuste conforme necessário */
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
@@ -180,9 +179,6 @@ nav {
 }
 
 .properties-list {
-    overflow-y: auto;
-    height: 100vh; /* Altura total da viewport */
-    padding-left: 20px;
     width: 70%; /* Ajuste a largura conforme necessário */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -246,7 +242,6 @@ nav {
 /* Estilizando as barras de rolagem */
 ::-webkit-scrollbar {
     width: 8px;
-    
 }
 
 ::-webkit-scrollbar-track {
