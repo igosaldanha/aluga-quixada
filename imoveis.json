@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "title": "Casa Aconchegante no Centro",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 120
+        },
+        "address": {
+            "cep": "63900-000",
+            "street": "Rua José de Alencar",
+            "number": 123,
+            "neighborhood": "Centro",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 1234-5678",
+        "rent_value": "R$ 1.200,00",
+        "image": "src/assets/images/casa-centro.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Apartamento Moderno e Compacto",
+        "description": {
+            "quartos": 2,
+            "banheiros": 1,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 70
+        },
+        "address": {
+            "cep": "63900-001",
+            "street": "Avenida Plácido Castelo",
+            "number": 456,
+            "neighborhood": "Alto da Boa Vista",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 2345-6789",
+        "rent_value": "R$ 1.500,00",
+        "image": "src/assets/images/apartamento-moderno.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Chácara Grande e Verde",
+        "description": {
+            "quartos": 4,
+            "banheiros": 3,
+            "garagem": 2,
+            "varanda": 1,
+            "tamanho_m2": 300
+        },
+        "address": {
+            "cep": "63900-002",
+            "street": "Estrada do Algodão",
+            "number": "S/N",
+            "neighborhood": "Baviera",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 3456-7890",
+        "rent_value": "R$ 2.500,00",
+        "image": "src/assets/images/chacara-espacosa.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Casa de Praia com Vista para o Mar",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 150
+        },
+        "address": {
+            "cep": "63900-003",
+            "street": "Rua da Praia",
+            "number": 789,
+            "neighborhood": "Bôto",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 4567-8901",
+        "rent_value": "R$ 2.800,00",
+        "image": "src/assets/images/casa-praia.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Apartamento Luxuoso no Centro",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 2,
+            "varanda": 1,
+            "tamanho_m2": 180
+        },
+        "address": {
+            "cep": "63900-004",
+            "street": "Rua Epitácio Pessoa",
+            "number": 321,
+            "neighborhood": "Centro",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 5678-9012",
+        "rent_value": "R$ 4.000,00",
+        "image": "src/assets/images/apartamento-luxuoso.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Cobertura com Vista Panorâmica",
+        "description": {
+            "quartos": 4,
+            "banheiros": 3,
+            "garagem": 2,
+            "varanda": 1,
+            "tamanho_m2": 250
+        },
+        "address": {
+            "cep": "63900-005",
+            "street": "Avenida Francisco Sá",
+            "number": 200,
+            "neighborhood": "Alto São Francisco",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 6789-0123",
+        "rent_value": "R$ 6.500,00",
+        "image": "src/assets/images/cobertura-alto-padrao.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Flat Prático e Confortável",
+        "description": {
+            "quartos": 1,
+            "banheiros": 1,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 45
+        },
+        "address": {
+            "cep": "63900-006",
+            "street": "Rua Rui Barbosa",
+            "number": 789,
+            "neighborhood": "Bôto",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 7890-1234",
+        "rent_value": "R$ 1.100,00",
+        "image": "src/assets/images/flat-elegante.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Chácara com Lagoa e Churrasqueira",
+        "description": {
+            "quartos": 5,
+            "banheiros": 2,
+            "garagem": 3,
+            "varanda": 1,
+            "tamanho_m2": 500
+        },
+        "address": {
+            "cep": "63900-007",
+            "street": "Estrada do Algodão",
+            "number": "S/N",
+            "neighborhood": "Campo Novo",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 8901-2345",
+        "rent_value": "R$ 3.500,00",
+        "image": "src/assets/images/chacara-lagoa.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Casa Simples no Campo",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 0,
+            "tamanho_m2": 100
+        },
+        "address": {
+            "cep": "63900-008",
+            "street": "Rua do Campo",
+            "number": 123,
+            "neighborhood": "Campo Velho",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 9012-3456",
+        "rent_value": "R$ 1.800,00",
+        "image": "src/assets/images/casa-campo.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Studio Perfeito para Solteiros",
+        "description": {
+            "quartos": 1,
+            "banheiros": 1,
+            "garagem": 0,
+            "varanda": 0,
+            "tamanho_m2": 35
+        },
+        "address": {
+            "cep": "63900-009",
+            "street": "Avenida Plácido Castelo",
+            "number": 789,
+            "neighborhood": "Carrascal",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 0123-4567",
+        "rent_value": "R$ 950,00",
+        "image": "src/assets/images/studio-compacto.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Loja Comercial Bem Localizada",
+        "description": {
+            "quartos": 0,
+            "banheiros": 1,
+            "garagem": 1,
+            "varanda": 0,
+            "tamanho_m2": 50
+        },
+        "address": {
+            "cep": "63900-010",
+            "street": "Rua 15 de Novembro",
+            "number": 1000,
+            "neighborhood": "Centro",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 1234-5678",
+        "rent_value": "R$ 2.200,00",
+        "image": "src/assets/images/loja-comercial.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Sítio Tranquilo e Arejado",
+        "description": {
+            "quartos": 3,
+            "banheiros": 2,
+            "garagem": 1,
+            "varanda": 1,
+            "tamanho_m2": 250
+        },
+        "address": {
+            "cep": "63900-011",
+            "street": "Estrada do Sítio",
+            "number": "S/N",
+            "neighborhood": "Irajá",
+            "city": "Quixadá",
+            "state": "CE"
+        },
+        "whatsapp": "(85) 9 2345-6789",
+        "rent_value": "R$ 2.000,00",
+        "image": "src/assets/images/sitio-tranquilo.jpg"
+    }
+]
