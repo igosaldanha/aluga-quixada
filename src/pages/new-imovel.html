@@ -9,11 +9,15 @@
     <script src="https://kit.fontawesome.com/c276ee7c9d.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <link rel="icon" href="../assets/icons/favicon.png" type="image/x-icon">
+
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
+                <a href="../../index.html">
                 <img src="../assets/logo-aluga-quixada.png" alt="Logo Aluga Fácil Quixadá">
             </div>
 
@@ -33,66 +37,63 @@
     <main>
         <section class="form-section">
             <h2>Cadastro de Imóvel</h2>
-            <form action="submit-imovel" method="post" class="contact-form">
+            <form id="imovel-form" action="#" method="post" class="contact-form">
                 <div class="form-group">
                     <h3>Informações do Imóvel</h3>
                     <label for="title">Título</label>
-                    <input type="text" id="title" name="title" class="text-input" required>
-
+                    <input type="text" id="title" name="title" class="text-input" placeholder="Digite o título do imóvel" required>
+        
                     <label for="quartos">Quartos</label>
-                    <input type="number" id="quartos" name="quartos" class="text-input" min="0" required>
-
+                    <input type="number" id="quartos" name="quartos" class="text-input" min="0" placeholder="Número de quartos" required>
+        
                     <label for="banheiros">Banheiros</label>
-                    <input type="number" id="banheiros" name="banheiros" class="text-input" min="0" required>
-
+                    <input type="number" id="banheiros" name="banheiros" class="text-input" min="0" placeholder="Número de banheiros" required>
+        
                     <label for="garagem">Garagem</label>
-                    <input type="number" id="garagem" name="garagem" class="text-input" min="0" required>
-
+                    <input type="number" id="garagem" name="garagem" class="text-input" min="0" placeholder="Vagas na garagem" required>
+        
                     <label for="varanda">Varanda</label>
-                    <input type="number" id="varanda" name="varanda" class="text-input" min="0" required>
-
+                    <input type="number" id="varanda" name="varanda" class="text-input" min="0" placeholder="Número de varandas" required>
+        
                     <label for="tamanho_m2">Tamanho (m²)</label>
-                    <input type="number" id="tamanho_m2" name="tamanho_m2" class="text-input" min="0" required>
+                    <input type="number" id="tamanho_m2" name="tamanho_m2" class="text-input" min="0" placeholder="Tamanho em metros quadrados" required>
                 </div>
                 <div class="form-group">
                     <h3>Endereço</h3>
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" name="cep" class="text-input cep-mask" required>
-
+                    <input type="text" id="cep" name="cep" class="text-input cep-mask" placeholder="Digite o CEP" required>
+        
                     <label for="street">Rua</label>
-                    <input type="text" id="street" name="street" class="text-input" required>
-
+                    <input type="text" id="street" name="street" class="text-input" placeholder="Nome da rua" required>
+        
                     <label for="number">Número</label>
-                    <input type="text" id="number" name="number" class="text-input" required>
-
+                    <input type="text" id="number" name="number" class="text-input" placeholder="Número da residência" required>
+        
                     <label for="neighborhood">Bairro</label>
-                    <input type="text" id="neighborhood" name="neighborhood" class="text-input" required>
-
+                    <input type="text" id="neighborhood" name="neighborhood" class="text-input" placeholder="Nome do bairro" required>
+        
                     <label for="city">Cidade</label>
-                    <input type="text" id="city" name="city" class="text-input" required>
-
+                    <input type="text" id="city" name="city" class="text-input" placeholder="Nome da cidade" required>
+        
                     <label for="state">Estado</label>
-                    <input type="text" id="state" name="state" class="text-input" required>
+                    <input type="text" id="state" name="state" class="text-input" placeholder="Nome do estado" required>
                 </div>
                 <div class="form-group">
                     <h3>Contato e Valor</h3>
                     <label for="whatsapp">WhatsApp</label>
-                    <input type="text" id="whatsapp" name="whatsapp" class="text-input whatsapp-mask" required>
-
+                    <input type="text" id="whatsapp" name="whatsapp" class="text-input whatsapp-mask" placeholder="Número do WhatsApp" required>
+        
                     <label for="rent_value">Valor do Aluguel</label>
-                    <input type="text" id="rent_value" name="rent_value" class="text-input rent-mask" required>
-
+                    <input type="text" id="rent_value" name="rent_value" class="text-input rent-mask" placeholder="Valor do aluguel" required>
+        
                     <label for="image">Imagem</label>
                     <input type="file" id="image" name="image" class="text-input" required>
                 </div>
-                
             </form>
-
-            <button type="submit" class="btn btn-big contact-btn">
+            <button type="submit" class="btn btn-big contact-btn" id="submit-btn">
                 <i class="fas fa-envelope"></i>
                 Enviar
             </button>
-
         </section>
     </main>
     <footer>
