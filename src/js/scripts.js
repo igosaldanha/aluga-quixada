@@ -8,7 +8,7 @@ mobileMenu.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     let imoveis = [];
 
-    fetch('imoveis.json')
+    fetch('src/data/imoveis.json')
         .then(response => response.json())
         .then(data => {
             imoveis = data;
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             propertyContact.href = `https://wa.me/${imovel.whatsapp.replace(/\D/g, '')}`;
             propertyContact.target = "_blank";
             propertyContact.classList.add('whatsapp-button');
-            propertyContact.innerHTML = `<img src="whatsapp-icon.png" alt="WhatsApp"> Conversar no WhatsApp`;
+            propertyContact.innerHTML = `<img src="../src/assets/icons/Digital_Glyph_White.png" alt="WhatsApp"> Conversar no WhatsApp`;
 
             propertyInfo.appendChild(propertyTitle);
             propertyInfo.appendChild(propertyDescription);
