@@ -6,22 +6,12 @@ body {
     color: #333;
 }
 
-.property-carousel {
-    max-width: 1200px;
+.property-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
     margin: 20px auto;
-    padding: 0 20px;
-}
-
-.carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.carousel img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 1200px;
 }
 
 .property-details {

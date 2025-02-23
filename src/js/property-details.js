@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loadPropertyDetails = (imovel) => {
         
-        document.getElementById('property-image').style.backgroundImage = `url(../${imovel.image})`
+        document.getElementById('property-image').innerHTML = `<img class="property-images" src="../../${imovel.image}" alt="Imagem do imóvel">`;
         document.getElementById('property-title').textContent = imovel.title;
         document.getElementById('property-description').textContent = `Quartos: ${imovel.description.quartos}, Banheiros: ${imovel.description.banheiros}, Garagem: ${imovel.description.garagem}, Varanda: ${imovel.description.varanda}, Tamanho: ${imovel.description.tamanho_m2}m²`;
         document.getElementById('property-address').textContent = `${imovel.address.street}, ${imovel.address.number} - ${imovel.address.neighborhood}, ${imovel.address.city} - ${imovel.address.state}, CEP: ${imovel.address.cep}`;
