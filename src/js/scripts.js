@@ -8,7 +8,7 @@ mobileMenu.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     let imoveis = [];
 
-    fetch('src/data/imoveis.json')
+    fetch('src/data/property.json')
         .then(response => response.json())
         .then(data => {
             imoveis = data;
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             propertyPrice.textContent = `Preço: ${imovel.rent_value}`;
 
             const saibaMaisButton = document.createElement('a');
-            saibaMaisButton.href = "#";
+            saibaMaisButton.href = href=`../src/pages/property-details.html?id=${imovel.id}`;
             saibaMaisButton.classList.add('btn', 'saiba-mais-btn');
             saibaMaisButton.textContent = "Saiba Mais";
             saibaMaisButton.innerHTML = `<img src="../src/assets/icons/interrogacao.png" alt="WhatsApp"> Saiba Mais`;
