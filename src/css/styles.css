@@ -131,6 +131,11 @@ nav {
         display: flex;
     }
 
+    .menu-toggle i  {
+
+        font-size: 24px;
+    }
+
     .nav-links.active {
         display: flex;
         animation: fadeIn 0.3s ease-in-out forwards;
@@ -361,7 +366,7 @@ nav {
     }
 
     .filters {
-        position: relative;
+        position: static;
         width: 100%;
         height: 50vh;
         border: solid 1px #ddd;
@@ -407,8 +412,12 @@ nav {
     }
 
     .filters {
-        height: auto;
-        padding: 15px;
+        position: static;
+        width: 100%;
+        height: 60vh;
+        border: solid 1px #ddd;
+        border-radius: 10px;
+        padding: 20px;
     }
 
     .property-image {

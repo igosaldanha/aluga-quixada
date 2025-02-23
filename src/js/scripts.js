@@ -1,8 +1,20 @@
 const mobileMenu = document.getElementById('mobile-menu');
 const navLinks = document.querySelector('.nav-links');
+const iconDropdown = document.getElementById('icon-drop-menu');
 
 mobileMenu.addEventListener('click', () => {
+
     navLinks.classList.toggle('active');
+
+    if (iconDropdown.classList.contains('fa-bars')) {
+        iconDropdown.classList.remove('fa-bars');
+        iconDropdown.classList.add('fa-times');
+    }
+    else {
+        iconDropdown.classList.remove('fa-times');
+        iconDropdown.classList.add('fa-bars');
+    }
+
 });
 
 document.addEventListener('DOMContentLoaded', () => {
