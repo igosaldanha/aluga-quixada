@@ -82,10 +82,34 @@ nav {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 70px;
-        left: 0;
-        background-color: #fff;
-        border-top: 1px solid #ddd;
+        top: 85px;
+        left: 0px;
+        z-index: 1;
+        background-color: #ff6600;
+        transition: ease-in-out 0.3s;
+
+        text-align: center;
+        padding: 50px 0px;
+        
+        
+    }
+
+    .nav-links a {
+        color: #f0f0f0;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+
+    .btn-anuncie a {
+        background-color: #f0f0f0;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        color: #ff6600;
     }
 
     .nav-links li {
