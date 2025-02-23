@@ -216,8 +216,9 @@ nav {
 }
 
 .property-info p {
-    margin: 10px 0;
+    margin:  10px 0;
     font-size: 0.9rem;
+    padding-right: 50px;
 }
 
 .saiba-mais-btn {
@@ -290,16 +291,21 @@ nav {
 }
 
 @media (max-width: 768px) {
+   
     .properties-section {
         flex-direction: column;
-        width: 100%;
+        padding: 20px;
+        margin: 0px;
     }
 
     .filters {
         position: relative;
         width: 100%;
-        height: auto;
-        padding-right: 0px;
+        height: 50vh;
+        border: solid 1px #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        
     }
 
     .properties-list {
@@ -307,7 +313,6 @@ nav {
     }
 
     .property-card {
-        width: 100%;
         flex-direction: column;
     }
 
@@ -318,12 +323,18 @@ nav {
 
     .property-info {
         width: 100%;
+        padding: 30px;
     }
 
     .saiba-mais-btn,
     .whatsapp-button {
-        width: 100%;
+
+        font-size: 0.8rem;
         margin-top: 10px;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 0px;
     }
 }
 
@@ -447,4 +458,22 @@ footer {
     padding: 16px 20px;
     font-size: 14px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        padding: 20px 0;
+    }
+
+    .footer-section img {
+        width: 100%;
+    }
+
+    .footer-section .contact-form {
+        width: 100%;
+    }
 }
