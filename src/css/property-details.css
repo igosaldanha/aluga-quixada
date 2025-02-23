@@ -6,60 +6,66 @@ body {
     color: #333;
 }
 
-.container-property-image{
+.container-property-image {
     width: 100%;
     height: 700px;
     overflow: hidden;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
+    border-radius: 10px;
+    background-color: #eee;
 }
 
 .property-images {
-    
     width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    gap: 10px;
-
 }
 
 .property-details {
     max-width: 1200px;
-    margin: 20px auto;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    overflow: hidden;
 }
 
 .property-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .property-info h2 {
     color: #072460;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .property-info p {
     font-size: 16px;
     line-height: 1.6;
+    margin: 0;
 }
 
 .whatsapp-button {
     display: inline-flex;
     align-items: center;
-    padding: 10px 15px;
+    padding: 12px 18px;
     background-color: #25D366;
     color: #fff;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
 }
 
 .whatsapp-button img {
@@ -70,4 +76,73 @@ body {
 
 .whatsapp-button:hover {
     background-color: #1DA851;
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .container-property-image {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-property-image {
+        height: 400px;
+    }
+
+    .property-details {
+        padding: 15px;
+    }
+
+    .property-info {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .property-info p {
+        font-size: 14px;
+    }
+
+    .whatsapp-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-property-image {
+        height: 300px;
+    }
+
+
+    .property-details {
+        max-width: 1200px;
+        padding: 30px;
+        
+    }
+
+    .property-info {
+        width: 100%;
+        overflow: hidden;
+        padding: 10px;
+    }
+
+    .property-info h2 {
+        font-size: 22px;
+    }
+
+    .property-info p {
+        font-size: 16px;
+    }
+
+    .whatsapp-button {
+        font-size: 14px;
+        padding: 15px 0px;
+    }
+
+    .whatsapp-button img {
+        width: 16px;
+        height: 16px;
+    }
 }
