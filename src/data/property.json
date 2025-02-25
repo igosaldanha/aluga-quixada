@@ -19,7 +19,7 @@
         },
         "whatsapp": "(85) 9 1234-5678",
         "rent_value": "R$ 1.200,00",
-        "image": "src/assets/images/img-id-01.jpg"
+        "image": "img-id-01.jpg"
     },
     {
         "id": 2,
@@ -41,7 +41,7 @@
         },
         "whatsapp": "(85) 9 2345-6789",
         "rent_value": "R$ 1.500,00",
-        "image": "src/assets/images/img-id-02.jpg"
+        "image": "img-id-02.jpg"
     },
     {
         "id": 3,
@@ -63,7 +63,7 @@
         },
         "whatsapp": "(85) 9 3456-7890",
         "rent_value": "R$ 2.500,00",
-        "image": "src/assets/images/img-id-03.jpg"
+        "image": "img-id-03.jpg"
     },
     {
         "id": 4,
@@ -85,7 +85,7 @@
         },
         "whatsapp": "(85) 9 4567-8901",
         "rent_value": "R$ 2.800,00",
-        "image": "src/assets/images/img-id-04.jpg"
+        "image": "img-id-04.jpg"
     },
     {
         "id": 5,
@@ -107,7 +107,7 @@
         },
         "whatsapp": "(85) 9 5678-9012",
         "rent_value": "R$ 4.000,00",
-        "image": "src/assets/images/img-id-05.jpg"
+        "image": "img-id-05.jpg"
     },
     {
         "id": 6,
@@ -129,7 +129,7 @@
         },
         "whatsapp": "(85) 9 6789-0123",
         "rent_value": "R$ 6.500,00",
-        "image": "src/assets/images/img-id-06.jpg"
+        "image": "img-id-06.jpg"
     },
     {
         "id": 7,
@@ -151,7 +151,7 @@
         },
         "whatsapp": "(85) 9 7890-1234",
         "rent_value": "R$ 1.100,00",
-        "image": "src/assets/images/img-id-07.jpg"
+        "image": "img-id-07.jpg"
     },
     {
         "id": 8,
@@ -173,7 +173,7 @@
         },
         "whatsapp": "(85) 9 8901-2345",
         "rent_value": "R$ 3.500,00",
-        "image": "src/assets/images/img-id-08.jpg"
+        "image": "img-id-08.jpg"
     },
     {
         "id": 9,
@@ -195,7 +195,7 @@
         },
         "whatsapp": "(85) 9 9012-3456",
         "rent_value": "R$ 1.800,00",
-        "image": "src/assets/images/img-id-09.jpg"
+        "image": "img-id-09.jpg"
     },
     {
         "id": 10,
@@ -217,7 +217,7 @@
         },
         "whatsapp": "(85) 9 0123-4567",
         "rent_value": "R$ 950,00",
-        "image": "src/assets/images/img-id-10.jpg"
+        "image": "img-id-10.jpg"
     },
     {
         "id": 11,
@@ -239,7 +239,7 @@
         },
         "whatsapp": "(85) 9 1234-5678",
         "rent_value": "R$ 2.200,00",
-        "image": "src/assets/images/img-id-11.jpg"
+        "image": "img-id-11.jpg"
     },
     {
         "id": 12,
@@ -261,7 +261,7 @@
         },
         "whatsapp": "(85) 9 2345-6789",
         "rent_value": "R$ 2.000,00",
-        "image": "src/assets/images/img-id-12.jpg"
+        "image": "img-id-12.jpg"
     },
     {
         "id": 13,
@@ -283,7 +283,7 @@
         },
         "whatsapp": "(85) 9 3456-7890",
         "rent_value": "R$ 3.000,00",
-        "image": "src/assets/images/img-id-13.jpg"
+        "image": "img-id-13.jpg"
     },
     {
         "id": 14,
@@ -305,7 +305,7 @@
         },
         "whatsapp": "(85) 9 4567-8901",
         "rent_value": "R$ 1.300,00",
-        "image": "src/assets/images/img-id-14.jpg"
+        "image": "img-id-14.jpg"
     },
     {
         "id": 15,
@@ -327,7 +327,7 @@
         },
         "whatsapp": "(85) 9 5678-9012",
         "rent_value": "R$ 2.200,00",
-        "image": "src/assets/images/img-id-15.jpg"
+        "image": "img-id-15.jpg"
     },
     {
         "id": 16,
@@ -349,7 +349,7 @@
         },
         "whatsapp": "(85) 9 6789-0123",
         "rent_value": "R$ 7.000,00",
-        "image": "src/assets/images/img-id-16.jpg"
+        "image": "img-id-16.jpg"
     },
     {
         "id": 17,
@@ -371,7 +371,7 @@
         },
         "whatsapp": "(85) 9 7890-1234",
         "rent_value": "R$ 1.200,00",
-        "image": "src/assets/images/img-id-17.jpg"
+        "image": "img-id-17.jpg"
     },
     {
         "id": 18,
@@ -393,7 +393,7 @@
         },
         "whatsapp": "(85) 9 8901-2345",
         "rent_value": "R$ 4.000,00",
-        "image": "src/assets/images/img-id-18.jpg"
+        "image": "img-id-18.jpg"
     },
     {
         "id": 19,
@@ -415,7 +415,7 @@
         },
         "whatsapp": "(85) 9 9012-3456",
         "rent_value": "R$ 2.500,00",
-        "image": "src/assets/images/img-id-19.jpg"
+        "image": "img-id-19.jpg"
     },
     {
         "id": 20,
@@ -437,6 +437,6 @@
         },
         "whatsapp": "(85) 9 0123-4567",
         "rent_value": "R$ 1.000,00",
-        "image": "src/assets/images/img-id-20.jpg"
+        "image": "img-id-20.jpg"
     }
 ]

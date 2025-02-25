@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard do Usuário - Aluga Fácil Quixadá</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/advertising-user-dashboard.css">
+    <script src="https://kit.fontawesome.com/c276ee7c9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../../index.html"></a>
+                <img src="../assets/logo-aluga-quixada.png" alt="Logo Aluga Fácil Quixadá">
+            </div>
+            <ul class="nav-links">
+                <li><a href="../../index.html">Imóveis</a></li>
+                <li><a href="faq.html">Ajuda</a></li>
+                <li class="btn-anuncie"><a class="btn" href="login.html">Anuncie seu imóvel </a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i id="icon-drop-menu" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard-section">
+            <div class="user-info-container">
+                <div class="user-info">
+                    <img id="user-photo" src="" alt="Foto do Usuário">
+                    <h2 id="user-name">Nome do Usuário</h2>
+                    <p id="user-email"><i class="fas fa-envelope"></i> Email: </p>
+                    <p id="user-phone"><i class="fas fa-phone"></i> Telefone: </p>
+                    <p id="user-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp: </p>
+                    <p id="user-address"><i class="fas fa-map-marker-alt"></i> Endereço: </p>
+                </div>
+                <div class="edit-profile-form">
+                    <h3>Editar Perfil</h3>
+                    <form id="edit-profile-form">
+                        <label for="edit-name">Nome</label>
+                        <input type="text" id="edit-name" name="name">
+                        <label for="edit-email">Email</label>
+                        <input type="email" id="edit-email" name="email">
+                        <label for="edit-phone">Telefone</label>
+                        <input type="text" id="edit-phone" name="phone">
+                        <label for="edit-whatsapp">WhatsApp</label>
+                        <input type="text" id="edit-whatsapp" name="whatsapp">
+                        <label for="edit-address">Endereço</label>
+                        <input type="text" id="edit-address" name="address">
+                        <button type="submit" class="btn">Salvar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="user-properties">
+                <div class="properties-header">
+                    <h3>Meus Imóveis</h3>
+                    <button id="new-property" class="btn">Novo Imóvel</button>
+                </div>
+                
+                <div id="properties-list" class="properties-list">
+                    <!-- Lista de imóveis será carregada dinamicamente -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="../assets/logo-2-aluga-quixada.png" alt="Logo Aluga Quixadá">
+                <h2>Sobre Nós</h2>
+                <p>Aluga Quixadá é uma plataforma dedicada a facilitar a busca por imóveis na região de Quixadá.
+                    Nosso objetivo é conectar proprietários e inquilinos de forma rápida e eficiente.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; (85) 9 1234-5678</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; contato@alugaquixada.com.br</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section contact-form">
+               
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 Aluga Quixadá | Todos os direitos reservados.
+        </div>
+    </footer>
+    <script src="../js/advertising-user-dashboard.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

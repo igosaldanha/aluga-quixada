@@ -3,19 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes do Imóvel - Aluga Quixadá</title>
-
-
+    <title>Login - Aluga Fácil Quixadá</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/property-details.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-
+    <link rel="stylesheet" href="../css/login.css">
     <script src="https://kit.fontawesome.com/c276ee7c9d.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="../assets/icons/favicon.png" type="image/x-icon">
-
-
 </head>
 <body>
     <header>
@@ -35,18 +26,32 @@
         </nav>
     </header>
     <main>
-
-        <section class="property-details">
-            <div class="container-property-image" id="property-image"></div>
-            <div class="property-info">
-                <h2 id="property-title">Título do Imóvel</h2>
-                <p id="property-description">Descrição do Imóvel</p>
-                <p id="property-address">Endereço do Imóvel</p>
-                <p id="property-price">Preço do Imóvel</p>
-                <a href="#" id="property-contact" class="whatsapp-button">
-                    <img src="../assets/icons/Digital_Glyph_White.png" alt="WhatsApp">
-                    Contato
-                </a>
+        <section class="login-section">
+            <div class="form-container">
+                <div class="form-toggle">
+                    <button id="login-toggle" class="active">Login</button>
+                    <button id="signup-toggle">Criar Conta</button>
+                </div>
+                <form id="login-form" class="login-form">
+                    <h2>Login</h2>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="text-input" required>
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" class="text-input" required>
+                    <button type="submit" class="btn btn-big">Entrar</button>
+                </form>
+                <form id="signup-form" class="signup-form hidden">
+                    <h2>Criar Conta</h2>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" class="text-input" required>
+                    <label for="email-signup">Email</label>
+                    <input type="email" id="email-signup" name="email" class="text-input" required>
+                    <label for="password-signup">Senha</label>
+                    <input type="password" id="password-signup" name="password" class="text-input" required>
+                    <label for="confirm-password">Confirmar Senha</label>
+                    <input type="password" id="confirm-password" name="confirm-password" class="text-input" required>
+                    <button type="submit" class="btn btn-big">Criar Conta</button>
+                </form>
             </div>
         </section>
     </main>
@@ -77,7 +82,8 @@
             &copy; 2025 Aluga Quixadá | Todos os direitos reservados.
         </div>
     </footer>
-    <script src="../js/property-details.js"></script>
+    <script src="../js/login.js"></script>
     <script src="../js/scripts.js"></script>
+
 </body>
 </html>

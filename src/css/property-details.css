@@ -54,6 +54,11 @@ body {
     margin: 0;
 }
 
+.property-info p:nth-of-type(2) {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 .whatsapp-button {
     display: inline-flex;
     align-items: center;

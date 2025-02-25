@@ -1,0 +1,344 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.dashboard-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 50px;
+    
+    border-radius: 10px;
+    
+}
+
+.user-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.user-info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-info h2 {
+    margin-bottom: 10px;
+    color: #072460;
+    font-size: 1.7rem;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.user-info p i {
+    margin-right: 10px;
+}
+
+.edit-profile-form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.edit-profile-form h3 {
+    margin-bottom: 10px;
+    color: #072460;
+}
+
+.edit-profile-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-profile-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.edit-profile-form .btn {
+    background-color: #072460;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-profile-form .btn:hover {
+    background-color: #051a45;
+}
+
+.user-properties {
+    margin-top: 20px;
+}
+
+.user-properties h3 {
+    margin-bottom: 10px;
+    color: #072460;
+}
+
+.properties-header {
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+    align-content: center;
+   
+
+    
+}
+
+.user-properties .btn {
+    background-color: #072460;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.user-properties .btn:hover {
+    background-color: #051a45;
+}
+
+.properties-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    width: 100%;
+}
+
+.property-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.property-card h4 {
+    margin-bottom: 10px;
+    color: #072460;
+}
+
+.property-card p {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    gap: 30px;
+    font-size: 14px;
+
+    
+}
+
+.property-card .icon-property {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+
+}
+
+.property-card .icon-property i {
+    margin-right: 10px;
+    color: #072460;
+}
+
+.property-card .property-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.property-card .btn {
+    background-color: #072460;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.property-card .btn:hover {
+    background-color: #051a45;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 1024px) {
+    .dashboard-section {
+        padding: 40px;
+        margin: 20px;
+    }
+
+    .user-info-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+    }
+
+    .user-info {
+        width: 85%;
+        padding: 25px;
+    }
+
+    .edit-profile-form {
+        width: 85%;
+        margin-top: 25px;
+    }
+
+    .edit-profile-form label {
+        text-align: left;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-section {
+        padding: 30px;
+        margin: 15px;
+    }
+
+    .user-info {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .edit-profile-form {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .edit-profile-form label {
+        text-align: left;
+        display: block;
+    }
+
+    .properties-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .property-card {
+        width: 85%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-section {
+        padding: 20px;
+    }
+
+    .properties-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    
+
+    .user-info-container {
+        padding-bottom: 20px;
+    }
+
+    .user-info img {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 15px;
+    }
+
+    .property-card {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .property-card .btn {
+        padding: 10px 25px;
+    }
+
+    .edit-profile-form label {
+        text-align: left;
+        display: block;
+    }
+
+    .property-card p {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+        gap: 30px;
+        font-size: 14px;
+    
+        
+    }
+    
+    .property-card .icon-property {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0;
+    
+    
+    }
+    
+    .property-card .icon-property i {
+        margin-right: 0px;
+        color: #072460;
+    }
+}

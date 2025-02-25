@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const propertyImage = document.createElement('div');
             propertyImage.classList.add('property-image');
-            propertyImage.style.backgroundImage = `url(${imovel.image})`;
+            propertyImage.style.backgroundImage = `url(src/assets/images/${imovel.image})`;
 
             const propertyInfo = document.createElement('div');
             propertyInfo.classList.add('property-info');
@@ -47,8 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
             propertyTitle.textContent = imovel.title;
 
             const propertyDescription = document.createElement('p');
-            propertyDescription.textContent = `Quartos: ${imovel.description.quartos}, Banheiros: ${imovel.description.banheiros}, Garagem: ${imovel.description.garagem}, Varanda: ${imovel.description.varanda}, Tamanho: ${imovel.description.tamanho_m2}m²`;
-
+            propertyDescription.innerHTML = `
+                <div class="description-icon"><i class="fas fa-bed"></i> ${imovel.description.quartos}</div>
+                <div class="description-icon"><i class="fas fa-bath"></i> ${imovel.description.banheiros}</div> 
+                <div class="description-icon"><i class="fas fa-car"></i> ${imovel.description.garagem}</div>
+                <div class="description-icon"><i class="fas fa-umbrella-beach"></i> ${imovel.description.varanda}</div>
+                <div class="description-icon"><i class="fas fa-ruler-combined"></i> ${imovel.description.tamanho_m2}m²</div>
+            `;
+          
             const propertyAddress = document.createElement('p');
             propertyAddress.textContent = `${imovel.address.street}, ${imovel.address.number} - ${imovel.address.neighborhood}, ${imovel.address.city} - ${imovel.address.state}, CEP: ${imovel.address.cep}`;
 
