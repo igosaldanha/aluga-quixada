@@ -458,6 +458,13 @@ nav {
     .whatsapp-button {
         font-size: 0.7rem;
     }
+
+    .property-info .description-icon {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+
 }
 
 /* Para tablets médios (768px - 1024px) */
@@ -501,6 +508,11 @@ nav {
     .saiba-mais-btn,
     .whatsapp-button {
         font-size: 1rem;
+    }
+
+    .property-info .description-icon {
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
 }
 

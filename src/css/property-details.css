@@ -27,10 +27,9 @@ body {
 .property-details {
     max-width: 1200px;
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid #ddd;   
+    margin: 60px auto;
     overflow: hidden;
 }
 
@@ -98,6 +97,7 @@ body {
 
     .property-details {
         padding: 15px;
+        margin: 20px;
     }
 
     .property-info {
@@ -121,9 +121,11 @@ body {
     }
 
 
+
     .property-details {
         max-width: 1200px;
         padding: 30px;
+        margin: 20px;
         
     }
 
@@ -141,6 +143,16 @@ body {
         font-size: 16px;
     }
 
+    .property-info p:nth-of-type(1) {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .property-info p i {
+        margin-right: 10px;
+    }
+
     .whatsapp-button {
         font-size: 14px;
         padding: 15px 0px;
@@ -150,4 +162,11 @@ body {
         width: 16px;
         height: 16px;
     }
+
+    .description-icon{
+        display: flex;
+        border-right: 20px;
+
+    }
+
 }
