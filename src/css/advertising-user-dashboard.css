@@ -202,8 +202,18 @@ body {
     margin-top: 10px;
 }
 
-.property-card .btn {
+.property-card .btn-edit {
     background-color: #072460;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.property-card .btn-delete {
+    background-color: #e74b4b;
     color: #fff;
     border: none;
     padding: 10px 30px;

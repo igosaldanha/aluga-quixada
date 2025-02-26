@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     propertyActions.classList.add('property-actions');
 
                     const editButton = document.createElement('button');
-                    editButton.classList.add('btn');
+                    editButton.classList.add('btn-edit');
                     editButton.textContent = 'Editar';
                     editButton.addEventListener('click', () => {
                         window.location.href = `edit-property.html?id=${property.id}`;
                     });
 
                     const deleteButton = document.createElement('button');
-                    deleteButton.classList.add('btn');
+                    deleteButton.classList.add('btn-delete');
                     deleteButton.textContent = 'Excluir';
                     deleteButton.addEventListener('click', () => {
                         // Lógica para excluir imóvel

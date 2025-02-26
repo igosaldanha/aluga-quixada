@@ -28,12 +28,28 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(users => {
                 const user = users.find(user => user.email === email && user.password === password);
                 if (user) {
-                    alert('Login bem-sucedido!');
-                    window.location.href = `advertising-user-dashboard.html?id=${user.id}`;
+                    showPopup('Login bem-sucedido!', 'success');
+                    setTimeout(() => {
+                        window.location.href = `advertising-user-dashboard.html?id=${user.id}`;
+                    }, 2000);
                 } else {
-                    alert('Usuário ou senha incorretos.');
+                    showPopup('Usuário ou senha incorretos.', 'error');
                 }
             })
-            .catch(error => console.error('Erro ao carregar os dados do usuário:', error));
+            .catch(error => {
+                console.error('Erro ao carregar os dados do usuário:', error);
+                showPopup('Erro ao carregar os dados do usuário.', 'error');
+            });
     });
+
+    const showPopup = (message, type) => {
+        const popup = document.createElement('div');
+        popup.classList.add('popup', type);
+        popup.textContent = message;
+        document.body.appendChild(popup);
+
+        setTimeout(() => {
+            popup.remove();
+        }, 3000);
+    };
 });
