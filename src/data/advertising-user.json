@@ -38,7 +38,7 @@
     {
         "id": 3,
         "name": "Carlos Souza",
-        "email": "carlos.souza@email.com",
+        "email": "carlos@email.com",
         "phone": "(85) 9 3456-7890",
         "address": {
             "cep": "63902-000",
@@ -51,7 +51,7 @@
         "whatsapp": "(85) 9 3456-7890",
         "imoveis": [6, 7, 14, 15, 16],
         "photo": "exemple-04.jpg",
-        "password": "senha789"
+        "password": "1234"
     },
     {
         "id": 4,
