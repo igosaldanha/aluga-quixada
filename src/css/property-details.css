@@ -88,6 +88,8 @@ body {
     .container-property-image {
         height: 500px;
     }
+
+    
 }
 
 @media (max-width: 768px) {

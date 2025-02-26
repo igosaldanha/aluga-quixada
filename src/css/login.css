@@ -92,6 +92,12 @@ body {
     background: #e65c00;
 }
 
+@media (max-width: 1024px) {
+    .form-container {
+        padding: 70px 30px;
+    }
+}
+
 /* Responsividade para telas menores */
 @media screen and (max-width: 768px) {
     .login-section {
@@ -100,8 +106,9 @@ body {
     }
 
     .form-container {
-        width: 90%;
+        width: 80%;
         padding: 50px;
+        margin: 20px 0px;
     }
 }
 

@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     editButton.classList.add('btn-edit');
                     editButton.textContent = 'Editar';
                     editButton.addEventListener('click', () => {
-                        window.location.href = `edit-property.html?id=${property.id}`;
+                        alert('Função de editar imóvel ainda não implementada.');
                     });
 
                     const deleteButton = document.createElement('button');

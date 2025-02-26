@@ -176,7 +176,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 10px 0;
-    gap: 30px;
+    gap: 20px;
     font-size: 14px;
 
     
@@ -200,6 +200,7 @@ body {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .property-card .btn-edit {
@@ -232,6 +233,27 @@ body {
     .dashboard-section {
         padding: 40px;
         margin: 20px;
+    }
+
+    .properties-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .property-card {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        padding: 10px;
+        width: calc(50% - 20px);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .user-info-container {
