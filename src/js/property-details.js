@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="description-icon"><i class="fas fa-ruler-combined"></i> ${imovel.description.tamanho_m2}m²</div>
         `;
         document.getElementById('property-address').textContent = `${imovel.address.street}, ${imovel.address.number} - ${imovel.address.neighborhood}, ${imovel.address.city} - ${imovel.address.state}, CEP: ${imovel.address.cep}`;
-        document.getElementById('property-price').textContent = `Preço: ${imovel.rent_value}`;
+        document.getElementById('property-price').textContent = `${imovel.rent_value} / Mês`;
         document.getElementById('property-contact').href = `https://wa.me/${imovel.whatsapp.replace(/\D/g, '')}`;
     };
 });

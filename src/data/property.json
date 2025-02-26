@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "title": "Apartamento Moderno e Compacto",
+        "title": "Apartamento Compacto",
         "description": {
             "quartos": 2,
             "banheiros": 1,
@@ -40,7 +40,7 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 2345-6789",
-        "rent_value": "R$ 1.500,00",
+        "rent_value": "R$ 600,00",
         "image": "img-id-02.jpg"
     },
     {
@@ -62,12 +62,12 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 3456-7890",
-        "rent_value": "R$ 2.500,00",
+        "rent_value": "R$ 1.400,00",
         "image": "img-id-03.jpg"
     },
     {
         "id": 4,
-        "title": "Casa de Praia com Vista para o Mar",
+        "title": "Casa Grande com Varanda",
         "description": {
             "quartos": 3,
             "banheiros": 2,
@@ -84,12 +84,12 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 4567-8901",
-        "rent_value": "R$ 2.800,00",
+        "rent_value": "R$ 1.100,00",
         "image": "img-id-04.jpg"
     },
     {
         "id": 5,
-        "title": "Apartamento Luxuoso no Centro",
+        "title": "Apartamento no Centro",
         "description": {
             "quartos": 3,
             "banheiros": 2,
@@ -106,12 +106,12 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 5678-9012",
-        "rent_value": "R$ 4.000,00",
+        "rent_value": "R$ 700,00",
         "image": "img-id-05.jpg"
     },
     {
         "id": 6,
-        "title": "Cobertura com Vista Panorâmica",
+        "title": "Casa Grande no Alto São Francisco",
         "description": {
             "quartos": 4,
             "banheiros": 3,
@@ -128,7 +128,7 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 6789-0123",
-        "rent_value": "R$ 6.500,00",
+        "rent_value": "R$ 850,00",
         "image": "img-id-06.jpg"
     },
     {
@@ -172,12 +172,12 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 8901-2345",
-        "rent_value": "R$ 3.500,00",
+        "rent_value": "R$ 1.400,00",
         "image": "img-id-08.jpg"
     },
     {
         "id": 9,
-        "title": "Casa Simples no Campo",
+        "title": "Casa Simples",
         "description": {
             "quartos": 3,
             "banheiros": 2,
@@ -194,7 +194,7 @@
             "state": "CE"
         },
         "whatsapp": "(85) 9 9012-3456",
-        "rent_value": "R$ 1.800,00",
+        "rent_value": "R$ 950,00",
         "image": "img-id-09.jpg"
     },
     {

@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             propertyAddress.textContent = `${imovel.address.street}, ${imovel.address.number} - ${imovel.address.neighborhood}, ${imovel.address.city} - ${imovel.address.state}, CEP: ${imovel.address.cep}`;
 
             const propertyPrice = document.createElement('p');
-            propertyPrice.textContent = `Preço: ${imovel.rent_value}`;
+            propertyPrice.textContent = `${imovel.rent_value} / Mês `;
 
             const saibaMaisButton = document.createElement('a');
             saibaMaisButton.href = href=`../src/pages/property-details.html?id=${imovel.id}`;
